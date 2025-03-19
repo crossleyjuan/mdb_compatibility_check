@@ -411,6 +411,7 @@ def remove_internal_parameters(command):
     command.pop("runtimeConstants", None)
     command.pop("needsMerge", None)
     command.pop("clientOperationKey", None)
+    command.pop("databaseVersion", None)
 
 
 def check_aggregate_parameters(entry):
